@@ -12,8 +12,8 @@ extern "C"
 #include "mbedtls/ctr_drbg.h"
 }
 
-const char *ssid = "141D84";
-const char *password = "YugoKoral45";
+const char *ssid = "---";
+const char *password = "---";
 
 const char *handshakeUrlP256 =
     "http://131.163.81.124:8000/ecdh/p256";
