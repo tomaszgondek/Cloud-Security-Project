@@ -45,10 +45,6 @@ API. The server generates its own key pair, calculates the shared secret, and
 returns its public key. The ESP32 completes the exchange, measures the operation
 time, and uploads the resulting statistics to the server.
 
-> The current implementation is intended for performance research. HTTP
-> communication does not provide transport security or authenticate either
-> party. Do not use it in production without additional security measures.
-
 ## Repository Structure
 
 ```text
