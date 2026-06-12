@@ -191,20 +191,6 @@ Example result sent to `/benchmark`:
   "max_us": 140000
 }
 ```
-
-## Security Considerations
-
-Before publishing or deploying this project:
-
-- remove Wi-Fi credentials and public IP addresses from the source code,
-- store configuration outside the repository,
-- replace HTTP with HTTPS/TLS,
-- authenticate both devices and the server,
-- use a KDF to derive encryption keys from the shared secret,
-- encrypt data with an authenticated encryption algorithm such as AES-GCM or
-  ChaCha20-Poly1305,
-- protect private keys appropriately.
-
 ## Possible Improvements
 
 - measure RAM usage and energy consumption,
@@ -214,6 +200,3 @@ Before publishing or deploying this project:
 - visualize results stored in the CSV file,
 - automate experiments and report generation.
 
-## Status
-
-Research project under active development.
