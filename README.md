@@ -187,12 +187,3 @@ Example result sent to `/benchmark`:
   "max_us": 140000
 }
 ```
-## Possible Improvements
-
-- measure RAM usage and energy consumption,
-- compare additional IoT devices,
-- add data encryption after the handshake,
-- authenticate public keys,
-- visualize results stored in the CSV file,
-- automate experiments and report generation.
-
